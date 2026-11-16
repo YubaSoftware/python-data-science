@@ -1,0 +1,19 @@
+dataset,column,description
+weather.csv,date,Observation date in ISO 8601 format
+weather.csv,temperature,Daily temperature in degrees Celsius
+weather.csv,humidity,Relative humidity percentage
+weather.csv,precipitation,Daily precipitation in millimeters
+sales.csv,date,Transaction date in ISO 8601 format
+sales.csv,product,Product name
+sales.csv,quantity,Number of units sold
+sales.csv,revenue,Revenue in fictional currency units
+population.csv,country,Fictional country name
+population.csv,year,Calendar year
+population.csv,population,Illustrative population count
+monthly_expenses.csv,month,Calendar month in YYYY-MM format
+monthly_expenses.csv,category,Expense category
+monthly_expenses.csv,amount,Illustrative amount in fictional currency units
+video_games.csv,title,Fictional game title
+video_games.csv,genre,Example game genre
+video_games.csv,release_year,Illustrative release year
+video_games.csv,rating,Illustrative rating on a ten-point scale

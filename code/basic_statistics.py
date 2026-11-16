@@ -1,25 +1,9 @@
-"""A few basic descriptive statistics, implemented with the Python standard library."""
+"""A small runnable demonstration of the descriptive statistics helpers."""
 
-from collections.abc import Sequence
-
-
-def mean(values: Sequence[float]) -> float:
-    """Return the arithmetic mean of a non-empty sequence of numbers."""
-    if not values:
-        raise ValueError("mean requires at least one value")
-    return sum(values) / len(values)
-
-
-def median(values: Sequence[float]) -> float:
-    """Return the middle value of a non-empty sequence of numbers."""
-    if not values:
-        raise ValueError("median requires at least one value")
-
-    ordered = sorted(values)
-    middle = len(ordered) // 2
-    if len(ordered) % 2:
-        return ordered[middle]
-    return (ordered[middle - 1] + ordered[middle]) / 2
+if __package__:
+    from .descriptive_stats import mean, median
+else:
+    from descriptive_stats import mean, median
 
 
 if __name__ == "__main__":

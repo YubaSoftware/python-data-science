@@ -1,8 +1,8 @@
-# Data
+# Working data
 
-Keep datasets used by this repository here. A useful convention as the project grows is:
+Use this folder for data created during an analysis:
 
-- `raw/` for original, unchanged data
-- `processed/` for cleaned or transformed data
+- [`raw/`](raw/README.md) for original, unchanged inputs
+- [`processed/`](processed/README.md) for cleaned or transformed outputs
 
-Avoid committing large or sensitive datasets. Document where a dataset came from and any steps needed to reproduce it.
+The small, synthetic examples intended for version control live in [`datasets/`](../datasets/). Keep large, private, or licensed data out of Git; record its source and reproduction steps instead.
